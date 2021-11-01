@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
         Title="Klavier" Height="450" Width="770">
-    <Grid Background="#FF9B9B9B">
+    <Grid Background="#FF9B9B9B" KeyDown="Grid_KeyDown">
         <Button Content="C" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click"/>
         <Button Content="D" HorizontalAlignment="Left" Margin="76,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_2"/>
         <Button Content="E" HorizontalAlignment="Left" Margin="142,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_3"/>
