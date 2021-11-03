@@ -13,6 +13,7 @@
         <Button Content="Beenden" HorizontalAlignment="Left" Margin="594,370,0,0" VerticalAlignment="Top" Height="51" Width="196" x:Name="BtnSound2" FontSize="20" Click="BtnSound2_Click_1" />
         <Button Content="Klavier" HorizontalAlignment="Left" Margin="290,0,0,0" VerticalAlignment="Center" Height="67" Width="199" Click="Button_Click" Background="#FFECECEC" FontSize="24"/>
         <Label Content="Willkommen bei meinem Sound Player" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Height="44" Width="430" FontSize="24" FontFamily="Bahnschrift" Background="{x:Null}" Foreground="#FFF9F9F9" FontWeight="Bold"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="983,87,0,0" VerticalAlignment="Top" Width="0"/>
 
 
     </Grid>

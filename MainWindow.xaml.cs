@@ -57,8 +57,11 @@ namespace SoundPlayer
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             
+
             var wnd = new Klavier();
             wnd.Show();
+
+            Close();
         }
 
         private void BtnSound2_Click_1(object sender, RoutedEventArgs e)

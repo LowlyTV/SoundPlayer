@@ -232,7 +232,28 @@ namespace SoundPlayer
 
         }
 
-       
-        
+        private void Button_Click_18(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Hilfe_Menue_Klavier(object sender, RoutedEventArgs e)
+        {
+
+            
+
+            var wnd = new Klavier_Hilfe();
+            wnd.Show();
+
+            Close();
+        }
+
+        private void Startseite(object sender, RoutedEventArgs e)
+        {
+            var wnd = new MainWindow();
+            wnd.Show();
+
+            Close();
+        }
     }
 }
