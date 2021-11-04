@@ -68,5 +68,13 @@ namespace SoundPlayer
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Sounds(object sender, RoutedEventArgs e)
+        {
+            var wnd = new Sounds();
+            wnd.Show();
+
+            Close();
+        }
     }
 }

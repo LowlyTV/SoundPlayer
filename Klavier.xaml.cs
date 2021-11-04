@@ -32,6 +32,25 @@ namespace SoundPlayer
 
         }
 
+        
+
+        public async static void virtualButtonPressAsync2(Button button1)
+        {
+            
+                button1.Background = new SolidColorBrush(Colors.LightSkyBlue);
+                await Task.Delay(300);
+                button1.Background = new SolidColorBrush(Colors.White);
+               
+            
+        }
+
+        public async static void virtualButtonPressAsync(Button button1)
+        {
+            button1.Background = new SolidColorBrush(Colors.LightSkyBlue);
+            await Task.Delay(300);
+            button1.Background = new SolidColorBrush(Colors.Black);
+        }
+
         private void Grid_KeyDown(object sender, KeyEventArgs e)
         {
             
@@ -40,74 +59,92 @@ namespace SoundPlayer
             switch (e.Key)
             {
                 case Key.A:
+                    virtualButtonPressAsync2(buttonc);
                     System.Media.SoundPlayer soundC = new System.Media.SoundPlayer(SoundPlayer.Resource1.C);
                     soundC.Play();
                     break;
                 case Key.S:
+                    virtualButtonPressAsync2(buttond);
                     System.Media.SoundPlayer soundD = new System.Media.SoundPlayer(SoundPlayer.Resource1.D);
                     soundD.Play();
                     break;
                 case Key.D:
+                    virtualButtonPressAsync2(buttone);
                     System.Media.SoundPlayer soundE = new System.Media.SoundPlayer(SoundPlayer.Resource1.E);
                     soundE.Play();
                     break;
                 case Key.F:
+                    virtualButtonPressAsync2(buttonf);
                     System.Media.SoundPlayer soundF = new System.Media.SoundPlayer(SoundPlayer.Resource1.F);
                     soundF.Play();
                     break;
                 case Key.G:
+                    virtualButtonPressAsync2(buttong);
                     System.Media.SoundPlayer soundG = new System.Media.SoundPlayer(SoundPlayer.Resource1.G);
                     soundG.Play();
                     break;
                 case Key.H:
+                    virtualButtonPressAsync2(buttona);
                     System.Media.SoundPlayer soundA = new System.Media.SoundPlayer(SoundPlayer.Resource1.A);
                     soundA.Play();
                     break;
                 case Key.J:
+                    virtualButtonPressAsync2(buttonb);
                     System.Media.SoundPlayer soundB = new System.Media.SoundPlayer(SoundPlayer.Resource1.B);
                     soundB.Play();
                     break;
                 case Key.K:
+                    virtualButtonPressAsync2(buttonc1);
                     System.Media.SoundPlayer soundC1 = new System.Media.SoundPlayer(SoundPlayer.Resource1.C1);
                     soundC1.Play();
                     break;
                 case Key.L:
+                    virtualButtonPressAsync2(buttond1);
                     System.Media.SoundPlayer soundD1 = new System.Media.SoundPlayer(SoundPlayer.Resource1.D1);
                     soundD1.Play();
                     break;
                 case Key.OemTilde:
+                    virtualButtonPressAsync2(buttone1);
                     System.Media.SoundPlayer soundOe = new System.Media.SoundPlayer(SoundPlayer.Resource1.E1);
                     soundOe.Play();
                     break;
                 case Key.Oem7:
+                    virtualButtonPressAsync2(buttonf1);
                     System.Media.SoundPlayer soundF1 = new System.Media.SoundPlayer(SoundPlayer.Resource1.F1);
                     soundF1.Play();
                     break;
                 case Key.W:
+                    virtualButtonPressAsync(buttoncis);
                     System.Media.SoundPlayer soundCis = new System.Media.SoundPlayer(SoundPlayer.Resource1.C_s);
                     soundCis.Play();
                     break;
                 case Key.E:
+                    virtualButtonPressAsync(buttondis);
                     System.Media.SoundPlayer soundDis = new System.Media.SoundPlayer(SoundPlayer.Resource1.D_s);
                     soundDis.Play();
                     break;
                 case Key.R:
+                    virtualButtonPressAsync(buttonfis);
                     System.Media.SoundPlayer soundFis = new System.Media.SoundPlayer(SoundPlayer.Resource1.F_s);
                     soundFis.Play();
                     break;
                 case Key.T:
+                    virtualButtonPressAsync(buttongis);
                     System.Media.SoundPlayer soundGis = new System.Media.SoundPlayer(SoundPlayer.Resource1.G_s);
                     soundGis.Play();
                     break;
                 case Key.Z:
+                    virtualButtonPressAsync(buttonb2);
                     System.Media.SoundPlayer soundB_oben = new System.Media.SoundPlayer(SoundPlayer.Resource1.B);
                     soundB_oben.Play();
                     break;
                 case Key.I:
+                    virtualButtonPressAsync(buttoncis1);
                     System.Media.SoundPlayer soundCis1 = new System.Media.SoundPlayer(SoundPlayer.Resource1.C_s1);
                     soundCis1.Play();
                     break;
                 case Key.O:
+                    virtualButtonPressAsync(buttondis1);
                     System.Media.SoundPlayer soundDis1 = new System.Media.SoundPlayer(SoundPlayer.Resource1.D_s1);
                     soundDis1.Play();
                     break;
@@ -255,5 +292,8 @@ namespace SoundPlayer
 
             Close();
         }
+
+       
+        
     }
 }
