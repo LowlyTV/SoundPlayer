@@ -26,7 +26,7 @@ namespace SoundPlayer
         {
             InitializeComponent();
 
-            
+
 
             
 
@@ -54,7 +54,7 @@ namespace SoundPlayer
         private void Grid_KeyDown(object sender, KeyEventArgs e)
         {
             
-
+            
 
             switch (e.Key)
             {
@@ -293,7 +293,6 @@ namespace SoundPlayer
             Close();
         }
 
-       
         
     }
 }

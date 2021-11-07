@@ -124,14 +124,26 @@
   <data name="B" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\B.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="bass_gitarre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bass_gitarre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\Bb.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bells.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="C" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\C.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\C1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="church_bells" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\church_bells.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="clown_horn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clown_horn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="C_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\C_s.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -144,6 +156,12 @@
   </data>
   <data name="D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\D1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dog_barking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dog_barking.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drums" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\drums.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="D_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\D_s.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -169,7 +187,16 @@
   <data name="G" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\G.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="gitarre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\gitarre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="G_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\G_s.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pfeife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pfeife.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="retro_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\retro_game.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

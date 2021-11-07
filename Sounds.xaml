@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
         Title="Sounds" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FF006B8F">
+        <Label Content="Sound Effekte" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" Foreground="White" FontSize="36" Width="240"/>
+        <Button Content="Clown Trompete" HorizontalAlignment="Left" Margin="38,99,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Italic" FontWeight="Normal" Background="#FFD6F4FF"/>
+
     </Grid>
 </Window>

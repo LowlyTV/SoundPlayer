@@ -81,9 +81,27 @@ namespace SoundPlayer {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream bass_gitarre {
+            get {
+                return ResourceManager.GetStream("bass_gitarre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Bb {
             get {
                 return ResourceManager.GetStream("Bb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream bells {
+            get {
+                return ResourceManager.GetStream("bells", resourceCulture);
             }
         }
         
@@ -126,6 +144,24 @@ namespace SoundPlayer {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream church_bells {
+            get {
+                return ResourceManager.GetStream("church_bells", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream clown_horn {
+            get {
+                return ResourceManager.GetStream("clown_horn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream D {
             get {
                 return ResourceManager.GetStream("D", resourceCulture);
@@ -156,6 +192,24 @@ namespace SoundPlayer {
         internal static System.IO.UnmanagedMemoryStream D1 {
             get {
                 return ResourceManager.GetStream("D1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream dog_barking {
+            get {
+                return ResourceManager.GetStream("dog_barking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream drums {
+            get {
+                return ResourceManager.GetStream("drums", resourceCulture);
             }
         }
         
@@ -219,6 +273,33 @@ namespace SoundPlayer {
         internal static System.IO.UnmanagedMemoryStream G_s {
             get {
                 return ResourceManager.GetStream("G_s", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gitarre {
+            get {
+                return ResourceManager.GetStream("gitarre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pfeife {
+            get {
+                return ResourceManager.GetStream("pfeife", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream retro_game {
+            get {
+                return ResourceManager.GetStream("retro_game", resourceCulture);
             }
         }
     }
