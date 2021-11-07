@@ -9,10 +9,12 @@
 
   <ItemGroup>
     <None Remove="BackgroundSoundPlayer.png" />
+    <None Remove="speaker-icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="BackgroundSoundPlayer.png" />
+    <Resource Include="speaker-icon.ico" />
   </ItemGroup>
 
   <ItemGroup>

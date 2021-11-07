@@ -5,15 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
-        Title="Sound Player" Height="470" Width="820" >
+        Title="Sound Player" Height="485" Width="820" WindowStyle="SingleBorderWindow" ResizeMode="CanMinimize" Icon="/speaker-icon.ico" >
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/BackgroundSoundPlayer.png"/>
         </Grid.Background>
-        <Button Content="Beenden" HorizontalAlignment="Left" Margin="594,370,0,0" VerticalAlignment="Top" Height="51" Width="196" x:Name="BtnSound2" FontSize="20" Click="BtnSound2_Click_1" Background="White" FontWeight="Bold" />
-        <Button Content="Klavier" HorizontalAlignment="Center" VerticalAlignment="Center" Height="67" Width="200" Click="Button_Click" Background="White" FontSize="24" FontWeight="Normal"/>
-        <Label Content="Willkommen bei meinem Sound Player" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Height="44" Width="430" FontSize="24" FontFamily="Bahnschrift" Background="{x:Null}" Foreground="#FFF9F9F9" FontWeight="Bold"/>
-        <Button Content="Sounds" HorizontalAlignment="Left" Margin="41,0,0,0" VerticalAlignment="Center" Height="67" Width="199" FontSize="24" Background="White" Click="Sounds"/>
+        <Button Content="Beenden" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top" Height="34" Width="124" x:Name="BtnSound2" FontSize="18" Click="BtnSound2_Click_1" Background="#FF3A506B" FontWeight="Bold" FontStyle="Oblique" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Klavier" HorizontalAlignment="Center" VerticalAlignment="Top" Height="54" Width="186" Click="Button_Click" Background="#FF3A506B" FontSize="24" FontWeight="Medium" FontStyle="Oblique" Margin="0,343,0,0">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label Content="Willkommen in meinem Sound Player" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" Height="65" Width="644" FontSize="36" FontFamily="Bahnschrift" Background="{x:Null}" Foreground="#FFE9ECEF" FontWeight="Bold"/>
+        <Button Content="Sounds" HorizontalAlignment="Left" Margin="54,343,0,0" VerticalAlignment="Top" Height="54" Width="186" FontSize="24" Click="Sounds" Background="#FF3A506B" FontWeight="Medium" Visibility="Visible" UseLayoutRounding="False" FontStyle="Oblique" FontStretch="Medium" BorderBrush="#FF7F8080">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="573,343,0,0" VerticalAlignment="Top" Height="54" Width="200" FontSize="24" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium"/>
 
 
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
-        Title="Klavier" Height="450" Width="770">
+        Title="Klavier" Height="450" Width="770" ResizeMode="CanMinimize" Icon="/speaker-icon.ico">
     <Grid Background="#FF818080" KeyDown="Grid_KeyDown">
         <Button Content="C" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click" Name="buttonc"/>
         <Button Content="D" HorizontalAlignment="Left" Margin="76,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_2" Name="buttond"/>
@@ -25,8 +25,16 @@
         <Button Content="E1" HorizontalAlignment="Left" Margin="605,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_15" Name="buttone1"/>
         <Button Content="F1" HorizontalAlignment="Left" Margin="671,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_16" Name="buttonf1"/>
         <Button Content="DIS1" HorizontalAlignment="Left" Margin="585,100,0,0" VerticalAlignment="Top" Height="142" Width="81" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_17" Name="buttondis1"/>
-        <Button Content="Hilfe" HorizontalAlignment="Left" Margin="648,10,0,0" VerticalAlignment="Top" Height="31" Width="108" Click="Hilfe_Menue_Klavier" FontSize="18" Background="White"/>
-        <Button Content="Startseite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="33" Width="108" FontSize="18" Background="White" Click="Startseite"/>
+        <Button Content="Hilfe" HorizontalAlignment="Left" Margin="636,11,0,0" VerticalAlignment="Top" Height="31" Width="108" Click="Hilfe_Menue_Klavier" FontSize="18" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Startseite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="33" Width="108" FontSize="18" Background="#FF3A506B" Click="Startseite" FontStyle="Oblique" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>
