@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
-        Title="SoundInfo" Height="450" Width="800">
+        Title="SoundInfo" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/speaker-icon.ico">
     <Grid Background="#FF006B8F">
         <Label Content="Sound Informationen" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Height="65" Width="388" FontSize="36" Foreground="White" FontWeight="Bold"/>
         <Label Content="Die genutzten Sound Effekte stammen nicht von mir sondern wurden von MixKit gedownloadet." HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" FontSize="16" Width="724"/>
