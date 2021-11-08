@@ -1,0 +1,18 @@
+﻿<Window x:Class="SoundPlayer.SoundInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoundPlayer"
+        mc:Ignorable="d"
+        Title="SoundInfo" Height="450" Width="800">
+    <Grid Background="#FF006B8F">
+        <Label Content="Sound Informationen" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Height="65" Width="388" FontSize="36" Foreground="White" FontWeight="Bold"/>
+        <Label Content="Die genutzten Sound Effekte stammen nicht von mir sondern wurden von MixKit gedownloadet." HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" FontSize="16" Width="724"/>
+        <Label Content="MixKit:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Width="78" FontWeight="Bold"/>
+        <Button Content="Zurück" HorizontalAlignment="Left" Margin="38,376,0,0" VerticalAlignment="Top" Height="25" Width="91" Background="#FF3A506B" FontSize="16" FontWeight="Medium" FontStyle="Oblique" BorderBrush="{x:Null}" Click="Zurück"/>
+        <Button Content="Webseite besuchen" HorizontalAlignment="Center" Margin="0,280,0,0" VerticalAlignment="Top" Height="59" Width="168" Background="#FF3A506B" FontSize="16" FontWeight="Bold" FontStyle="Italic" BorderBrush="{x:Null}" Click="OpenWebsite"/>
+       
+
+    </Grid>
+</Window>

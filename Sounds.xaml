@@ -5,10 +5,61 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
-        Title="Sounds" Height="450" Width="800">
+        Title="Sounds" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/speaker-icon.ico">
     <Grid Background="#FF006B8F">
         <Label Content="Sound Effekte" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" Foreground="White" FontSize="36" Width="240"/>
-        <Button Content="Clown Trompete" HorizontalAlignment="Left" Margin="38,99,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Italic" FontWeight="Normal" Background="#FFD6F4FF"/>
+        <Button Content="Clown Trompete" HorizontalAlignment="Left" Margin="69,99,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="ClownTrompete">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Startseite
+                " HorizontalAlignment="Left" Margin="26,25,0,0" VerticalAlignment="Top" Height="27" Width="86" FontSize="16" FontStyle="Oblique" FontWeight="Bold" Click="Startseite">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Wrong Answer" HorizontalAlignment="Center" Margin="0,99,0,0" VerticalAlignment="Top" Height="43" Width="148" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="WrongAnswer">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Glocken" HorizontalAlignment="Left" Margin="580,99,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="Bells">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Kirchen Glocken" HorizontalAlignment="Left" Margin="69,217,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="ChurchBells">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Bellender Hund" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="BarkingDog">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Trommeln" HorizontalAlignment="Left" Margin="580,217,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="Drums">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Game-Over" HorizontalAlignment="Left" Margin="69,338,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="GameOver">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Pfeife" HorizontalAlignment="Center" Margin="0,338,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="Pfeife">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Retro Game" HorizontalAlignment="Left" Margin="580,338,0,0" VerticalAlignment="Top" Height="43" Width="147" FontSize="18" FontStyle="Oblique" FontWeight="Normal" Background="#FF00A8E8" Click="RetroGame">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Musik Info" HorizontalAlignment="Left" Margin="674,25,0,0" VerticalAlignment="Top" Height="29" Width="99" FontSize="16" FontWeight="Bold" FontStyle="Oblique" Click="MusikInfo"/>
 
     </Grid>
 </Window>

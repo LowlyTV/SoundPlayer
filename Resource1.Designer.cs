@@ -153,6 +153,15 @@ namespace SoundPlayer {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream church_bells_short {
+            get {
+                return ResourceManager.GetStream("church_bells_short", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream clown_horn {
             get {
                 return ResourceManager.GetStream("clown_horn", resourceCulture);
@@ -279,9 +288,27 @@ namespace SoundPlayer {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream gitarre {
+        internal static System.IO.UnmanagedMemoryStream game_over {
             get {
-                return ResourceManager.GetStream("gitarre", resourceCulture);
+                return ResourceManager.GetStream("game_over", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gitarren {
+            get {
+                return ResourceManager.GetStream("gitarren", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gitarrenSound {
+            get {
+                return ResourceManager.GetStream("gitarrenSound", resourceCulture);
             }
         }
         
@@ -300,6 +327,15 @@ namespace SoundPlayer {
         internal static System.IO.UnmanagedMemoryStream retro_game {
             get {
                 return ResourceManager.GetStream("retro_game", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.IO.UnmanagedMemoryStream ähnlich wie System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wrongAnswer {
+            get {
+                return ResourceManager.GetStream("wrongAnswer", resourceCulture);
             }
         }
     }

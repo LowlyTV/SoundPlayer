@@ -76,5 +76,10 @@ namespace SoundPlayer
 
             Close();
         }
+
+        private void Maintance(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Diese Funktion ist noch nicht verfügbar");
+        }
     }
 }

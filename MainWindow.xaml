@@ -11,29 +11,33 @@
             <ImageBrush ImageSource="/BackgroundSoundPlayer.png"/>
         </Grid.Background>
 
-        <Button Content="Beenden" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top" Height="34" Width="124" x:Name="BtnSound2" FontSize="18" Click="BtnSound2_Click_1" Background="#FF3A506B" FontWeight="Bold" FontStyle="Oblique" >
+        <Button Content="Beenden" HorizontalAlignment="Center" Margin="0,406,0,0" VerticalAlignment="Top" Height="34" Width="124" x:Name="BtnSound2" FontSize="18" Click="BtnSound2_Click_1" Background="#FF3A506B" FontWeight="Bold" FontStyle="Oblique" BorderBrush="{x:Null}" >
 
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
 
-        <Button Content="Klavier" HorizontalAlignment="Center" VerticalAlignment="Top" Height="54" Width="186" Click="Button_Click" Background="#FF3A506B" FontSize="24" FontWeight="Medium" FontStyle="Oblique" Margin="0,343,0,0">
+        <Button Content="Klavier" HorizontalAlignment="Center" VerticalAlignment="Top" Height="54" Width="208" Click="Button_Click" Background="#FF3A506B" FontSize="24" FontWeight="Medium" FontStyle="Oblique" Margin="0,343,0,0" BorderBrush="{x:Null}">
 
-        
+
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
 
         <Label Content="Willkommen in meinem Sound Player" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" Height="65" Width="644" FontSize="36" FontFamily="Bahnschrift" Background="{x:Null}" Foreground="#FFE9ECEF" FontWeight="Bold"/>
-        <Button Content="Sounds" HorizontalAlignment="Left" Margin="54,343,0,0" VerticalAlignment="Top" Height="54" Width="186" FontSize="24" Click="Sounds" Background="#FF3A506B" FontWeight="Medium" Visibility="Visible" UseLayoutRounding="False" FontStyle="Oblique" FontStretch="Medium" BorderBrush="#FF7F8080">
+        <Button Content="Sounds" HorizontalAlignment="Left" Margin="54,343,0,0" VerticalAlignment="Top" Height="54" Width="193" FontSize="24" Click="Sounds" Background="#FF3A506B" FontWeight="Medium" Visibility="Visible" UseLayoutRounding="False" FontStyle="Oblique" FontStretch="Medium" BorderBrush="{x:Null}">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
 
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="573,343,0,0" VerticalAlignment="Top" Height="54" Width="200" FontSize="24" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="573,343,0,0" VerticalAlignment="Top" Height="54" Width="200" FontSize="24" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium" BorderBrush="{x:Null}" Click="Maintance">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>

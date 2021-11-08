@@ -7,33 +7,110 @@
         mc:Ignorable="d"
 
         Title="Klavier" Height="450" Width="770" ResizeMode="CanMinimize" Icon="/speaker-icon.ico">
-    <Grid Background="#FF818080" KeyDown="Grid_KeyDown">
-        <Button Content="C" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click" Name="buttonc"/>
-        <Button Content="D" HorizontalAlignment="Left" Margin="76,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_2" Name="buttond"/>
-        <Button Content="E" HorizontalAlignment="Left" Margin="142,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_3" Name="buttone"/>
-        <Button Content="F" HorizontalAlignment="Left" Margin="208,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_4" Name="buttonf"/>
-        <Button Content="G" Margin="274,255,0,0" VerticalAlignment="Top" Height="179" FontSize="48" Background="White" Click="Button_Click_5" HorizontalAlignment="Left" Width="62" Name="buttong"/>
-        <Button Content="A" HorizontalAlignment="Left" Margin="340,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_6" Name="buttona"/>
-        <Button Content="B" HorizontalAlignment="Left" Margin="406,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_7" Name="buttonb"/>
-        <Button Content="C1" HorizontalAlignment="Left" Margin="472,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_1" Name="buttonc1"/>
-        <Button Content="D1" HorizontalAlignment="Left" Margin="539,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_8" Name="buttond1"/>
-        <Button Content="CIS" HorizontalAlignment="Left" Margin="40,100,0,0" VerticalAlignment="Top" Height="142" Width="75" FontSize="36" Background="#FF040404" Foreground="Snow" Click="Button_Click_9" Name="buttoncis"/>
-        <Button Content="DIS" HorizontalAlignment="Left" Margin="120,100,0,0" VerticalAlignment="Top" Height="142" Width="83" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_10" Name="buttondis"/>
-        <Button Content="FIS" HorizontalAlignment="Left" Margin="228,100,0,0" VerticalAlignment="Top" Height="142" Width="76" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_11" Name="buttonfis"/>
-        <Button Content="GIS" HorizontalAlignment="Left" Margin="309,100,0,0" VerticalAlignment="Top" Height="142" Width="71" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_12" Name="buttongis"/>
-        <Button Content="B" HorizontalAlignment="Left" Margin="385,100,0,0" VerticalAlignment="Top" Height="142" Width="82" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_13" Name="buttonb2"/>
-        <Button Content="CIS1" HorizontalAlignment="Left" Margin="502,100,0,0" VerticalAlignment="Top" Height="142" Width="78" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_14" Name="buttoncis1" />
-        <Button Content="E1" HorizontalAlignment="Left" Margin="605,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_15" Name="buttone1"/>
-        <Button Content="F1" HorizontalAlignment="Left" Margin="671,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="48" Background="White" Click="Button_Click_16" Name="buttonf1"/>
-        <Button Content="DIS1" HorizontalAlignment="Left" Margin="585,100,0,0" VerticalAlignment="Top" Height="142" Width="81" FontSize="36" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_17" Name="buttondis1"/>
-        <Button Content="Hilfe" HorizontalAlignment="Left" Margin="636,11,0,0" VerticalAlignment="Top" Height="31" Width="108" Click="Hilfe_Menue_Klavier" FontSize="18" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium">
+    <Grid Background="#FF00698F" KeyDown="Grid_KeyDown">
+        <Button Content="C" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click" Name="buttonc" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="D" HorizontalAlignment="Left" Margin="76,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_2" Name="buttond" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="E" HorizontalAlignment="Left" Margin="142,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_3" Name="buttone" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="F" HorizontalAlignment="Left" Margin="208,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_4" Name="buttonf" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="G" Margin="274,255,0,0" VerticalAlignment="Top" Height="179" FontSize="36" Background="White" Click="Button_Click_5" HorizontalAlignment="Left" Width="62" Name="buttong" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="A" HorizontalAlignment="Left" Margin="340,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_6" Name="buttona" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="B" HorizontalAlignment="Left" Margin="406,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_7" Name="buttonb" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="C1" HorizontalAlignment="Left" Margin="472,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_1" Name="buttonc1" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="D1" HorizontalAlignment="Left" Margin="539,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_8" Name="buttond1" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="CIS" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Center" Height="200" Width="75" FontSize="32" Background="#FF040404" Foreground="Snow" Click="Button_Click_9" Name="buttoncis" FontStyle="Italic" FontWeight="Medium" BorderBrush="#FF707070">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="DIS" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Center" Height="200" Width="75" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_10" Name="buttondis" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="FIS" HorizontalAlignment="Left" Margin="200,0,0,0" VerticalAlignment="Center" Height="200" Width="76" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_11" Name="buttonfis" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="GIS" HorizontalAlignment="Left" Margin="300,0,0,0" VerticalAlignment="Center" Height="200" Width="70" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_12" Name="buttongis" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="B" HorizontalAlignment="Left" Margin="385,0,0,0" VerticalAlignment="Center" Height="200" Width="70" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_13" Name="buttonb2" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="CIS1" HorizontalAlignment="Left" Margin="500,0,0,0" VerticalAlignment="Center" Height="200" Width="70" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_14" Name="buttoncis1" FontStyle="Italic" FontWeight="Medium" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="E1" HorizontalAlignment="Left" Margin="605,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_15" Name="buttone1" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="F1" HorizontalAlignment="Left" Margin="671,255,0,0" VerticalAlignment="Top" Height="179" Width="61" FontSize="36" Background="White" Click="Button_Click_16" Name="buttonf1" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="DIS1" HorizontalAlignment="Left" Margin="575,0,0,0" VerticalAlignment="Center" Height="200" Width="68" FontSize="32" Background="Black" Foreground="#FFFFFDFD" Click="Button_Click_17" Name="buttondis1" FontStyle="Italic" FontWeight="Medium">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Hilfe" HorizontalAlignment="Left" Margin="636,11,0,0" VerticalAlignment="Top" Height="31" Width="108" Click="Hilfe_Menue_Klavier" FontSize="18" Background="#FF00A8E8" FontStyle="Oblique" FontWeight="Medium">
 
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
+        <Button Content="Startseite" HorizontalAlignment="Left" Margin="34,13,0,0" VerticalAlignment="Top" Height="29" Width="103" Background="#FF00A8E8" FontSize="18" FontWeight="Medium" FontStyle="Oblique" Click="Startseite">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
 
-          
+
 
 
     </Grid>

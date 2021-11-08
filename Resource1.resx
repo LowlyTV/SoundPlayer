@@ -142,6 +142,9 @@
   <data name="church_bells" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\church_bells.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="church_bells_short" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\church_bells_short.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="clown_horn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\clown_horn.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -187,8 +190,14 @@
   <data name="G" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\G.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gitarre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="game_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\game-over.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gitarren" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\gitarre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gitarrenSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\gitarrenSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="G_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>MusicNotes\G_s.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -198,5 +207,8 @@
   </data>
   <data name="retro_game" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\retro_game.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wrongAnswer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wrongAnswer.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
