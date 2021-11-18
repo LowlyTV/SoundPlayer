@@ -1,0 +1,43 @@
+﻿<Window x:Class="SoundPlayer.OwnMusic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoundPlayer"
+        mc:Ignorable="d"
+        Title="OwnMusic" Height="450" Width="800" Background="#FF006B8F">
+    <Grid>
+        <Label Content="Eigene Musik hochladen" HorizontalAlignment="Left" Margin="194,22,0,0" VerticalAlignment="Top" Height="67" Width="455" Foreground="#FFF3EFEF" FontSize="36" FontWeight="Bold"/>
+        <Button Content="Musik hochladen" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="53" Width="238" Background="#FF3A506B" FontSize="22" Click="UploadMusic" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button  HorizontalAlignment="Left" Margin="194,329,0,0" VerticalAlignment="Top" Height="65" Width="65" FontSize="18" BorderBrush="{x:Null}" Click="btnPlay_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/play.png" Stretch="Uniform"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="358,329,0,0" VerticalAlignment="Top" Height="65" Width="64" FontSize="18" BorderBrush="{x:Null}" Click="btnPause_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/pause.png" Stretch="Uniform"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="537,329,0,0" VerticalAlignment="Top" Height="65" Width="65" BorderBrush="{x:Null}" Click="btnStop_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/stop.png" Stretch="Uniform"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label HorizontalAlignment="Left" Margin="226,231,0,0" VerticalAlignment="Top" Height="65" Width="361" Name="lblStatus"/>
+
+    </Grid>
+</Window>

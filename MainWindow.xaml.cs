@@ -77,9 +77,14 @@ namespace SoundPlayer
             Close();
         }
 
-        private void Maintance(object sender, RoutedEventArgs e)
+        private void Own_Music(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Diese Funktion ist noch nicht verfügbar");
+            var window = new OwnMusic();
+
+            window.Show();
+
+            
+            Close();
         }
     }
 }

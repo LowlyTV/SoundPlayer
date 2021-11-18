@@ -33,7 +33,7 @@
             </Button.Effect>
 
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="573,343,0,0" VerticalAlignment="Top" Height="54" Width="200" FontSize="24" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium" BorderBrush="{x:Null}" Click="Maintance">
+        <Button Content="Own Music" HorizontalAlignment="Left" Margin="573,343,0,0" VerticalAlignment="Top" Height="54" Width="200" FontSize="24" Background="#FF3A506B" FontStyle="Oblique" FontWeight="Medium" BorderBrush="{x:Null}" Click="Own_Music">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>

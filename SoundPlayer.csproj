@@ -9,15 +9,26 @@
 
   <ItemGroup>
     <None Remove="BackgroundSoundPlayer.png" />
+    <None Remove="pause.png" />
+    <None Remove="play.png" />
     <None Remove="speaker-icon.ico" />
+    <None Remove="stop.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="BackgroundSoundPlayer.png" />
+    <Resource Include="pause.png" />
+    <Resource Include="play.png" />
     <Resource Include="speaker-icon.ico" />
+    <Resource Include="stop.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Images.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resource1.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -26,6 +37,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
