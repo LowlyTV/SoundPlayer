@@ -37,7 +37,8 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Label HorizontalAlignment="Left" Margin="226,231,0,0" VerticalAlignment="Top" Height="65" Width="361" Name="lblStatus"/>
+        <Label HorizontalAlignment="Center" Margin="0,203,0,0" VerticalAlignment="Top" Height="65" Width="302" Name="lblStatus" Content="" FontSize="22" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Button Content="Startseite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="34" Width="80" Background="White" FontSize="16" Click="ZurueckButton"/>
 
     </Grid>
 </Window>

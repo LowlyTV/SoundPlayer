@@ -25,7 +25,7 @@ namespace SoundPlayer
 
 
 
-        public  OwnMusic()
+        public OwnMusic()
         {
             InitializeComponent();
 
@@ -50,37 +50,43 @@ namespace SoundPlayer
             }
         }
 
-        //private void UploadMusic(object sender, EventArgs e)
-        //{
-        //    OpenFileDialog openFileDialog = new OpenFileDialog();
-        //    openFileDialog.Filter = "MP3 files (*.mp3) | *.mp3 | All files (*.*|*.*";
+        private void UploadMusic(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "MP3 files (*.mp3) | *.mp3 | All files (*.*|*.*";
 
-        //    if (openFileDialog.ShowDialog() == true)
-        //    {
-        //        mediaPlayer.Open(new Uri(openFileDialog.FileName));
-        //        mediaPlayer.Play();
-
-        //        DispatcherTimer timer = new DispatcherTimer();
-        //        timer.Interval = TimeSpan.FromSeconds(1);
-        //        timer.Tick += timer_Ticker;
-        //        timer.Start();
-        //    }
-        //}
+            if (openFileDialog.ShowDialog() == true)
+            {
+                mediaPlayer.Open(new Uri(openFileDialog.FileName));
+                mediaPlayer.Play();
+                mediaPlayer.Volume = 100;
 
 
-        //void timer_Ticker(object sender, EventArgs e)
-        //{
-        //    if (mediaPlayer.Source != null)
-        //    {
-        //        lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"));
-        //        mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss");
-        //    }
-        //    else
-        //    {
-        //        lblStatus.Content = "Keine Datei ausgewählt....";
-        //    }
 
-        //}
+                DispatcherTimer timer = new DispatcherTimer();
+                timer.Interval = TimeSpan.FromSeconds(1);
+                timer.Tick += timer_Ticker;
+                timer.Start();
+            }
+        }
+
+
+        void timer_Ticker(object sender, EventArgs e)
+        {
+            if (mediaPlayer.Source != null)
+            {
+                lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"),
+                mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+
+            }
+            else
+            {
+                lblStatus.Content = "Keine Datei ausgewählt....";
+            }
+
+           
+
+        }
 
         private void btnPause_Click(object sender, RoutedEventArgs e)
         {
@@ -97,6 +103,12 @@ namespace SoundPlayer
             mediaPlayer.Stop();
         }
 
-        
+        private void ZurueckButton(object sender, RoutedEventArgs e)
+        {
+            var goBack = new MainWindow();
+            goBack.Show();
+
+            Close();
+        }
     }
 }
