@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using System.Windows.Threading;
 using Microsoft.Win32;
 
+
 namespace SoundPlayer
 {
     /// <summary>
@@ -73,6 +74,9 @@ namespace SoundPlayer
 
         void timer_Ticker(object sender, EventArgs e)
         {
+
+            
+
             if (mediaPlayer.Source != null)
             {
                 lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"),
