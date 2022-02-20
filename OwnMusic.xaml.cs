@@ -36,19 +36,18 @@ namespace SoundPlayer
 
         private void OpenDialog()
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "MP3 files (*.mp3) | *.mp3 | All files (*.*|*.*";
+            
 
-            if (openFileDialog.ShowDialog() == true)
-            {
-                mediaPlayer.Open(new Uri(openFileDialog.FileName));
-                mediaPlayer.Play();
+                OpenFileDialog openFileDialog = new OpenFileDialog();
+                openFileDialog.Filter = "MP3 files (*.mp3) | *.mp3 | All files (*.*|*.*";
 
-                //DispatcherTimer timer = new DispatcherTimer();
-                //timer.Interval = TimeSpan.FromSeconds(1);
-                //timer.Tick += timer_Ticker;
-                //timer.Start();
-            }
+                if (openFileDialog.ShowDialog() == true)
+                {
+                    mediaPlayer.Open(new Uri(openFileDialog.FileName));
+                    mediaPlayer.Play();
+                }
+           
+
         }
 
         private void UploadMusic(object sender, EventArgs e)
@@ -75,18 +74,25 @@ namespace SoundPlayer
         void timer_Ticker(object sender, EventArgs e)
         {
 
-            
+           
 
-            if (mediaPlayer.Source != null)
+            try
             {
-                lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"),
-                mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+                if (mediaPlayer.Source != null)
+                {
+                    lblStatus.Content = String.Format("{0} / {1}", mediaPlayer.Position.ToString(@"mm\:ss"),
+                    mediaPlayer.NaturalDuration.TimeSpan.ToString(@"mm\:ss"));
+
+                }
+            }
+            catch (Exception)
+            {
+                lblStatus.Content = "Fehler beim Upload der Datei. \nVersuchen Sie es erneut.";
+
+              
 
             }
-            else
-            {
-                lblStatus.Content = "Keine Datei ausgewählt....";
-            }
+
 
            
 
@@ -95,6 +101,7 @@ namespace SoundPlayer
         private void btnPause_Click(object sender, RoutedEventArgs e)
         {
             mediaPlayer.Pause();
+            
         }
 
         private void btnPlay_Click(object sender, RoutedEventArgs e)

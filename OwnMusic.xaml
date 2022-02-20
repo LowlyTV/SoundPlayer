@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:SoundPlayer"
         mc:Ignorable="d"
         Title="OwnMusic" Height="450" Width="800" Background="#FF006B8F">
+
+
+
     <Grid>
         <Label Content="Eigene Musik hochladen" HorizontalAlignment="Left" Margin="194,22,0,0" VerticalAlignment="Top" Height="67" Width="455" Foreground="#FFF3EFEF" FontSize="36" FontWeight="Bold"/>
         <Button Content="Musik hochladen" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="53" Width="238" Background="#FF3A506B" FontSize="22" Click="UploadMusic" >
@@ -13,15 +16,15 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button  HorizontalAlignment="Left" Margin="194,329,0,0" VerticalAlignment="Top" Height="65" Width="65" FontSize="18" BorderBrush="{x:Null}" Click="btnPlay_Click">
+        <Button  HorizontalAlignment="Left" Margin="194,329,0,0" VerticalAlignment="Top" Height="65" Width="65" FontSize="18" BorderBrush="{x:Null}" Click="btnPlay_Click" >
             <Button.Background>
-                <ImageBrush ImageSource="/play.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="/play.png" Stretch="Uniform" TileMode="FlipX"/>
             </Button.Background>
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button HorizontalAlignment="Left" Margin="358,329,0,0" VerticalAlignment="Top" Height="65" Width="64" FontSize="18" BorderBrush="{x:Null}" Click="btnPause_Click">
+        <Button HorizontalAlignment="Left" Margin="360,329,0,0" VerticalAlignment="Top" Height="65" Width="62" FontSize="18" BorderBrush="{x:Null}" Click="btnPause_Click" x:Name="pause" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <Button.Background>
                 <ImageBrush ImageSource="/pause.png" Stretch="Uniform"/>
             </Button.Background>
@@ -37,8 +40,9 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Label HorizontalAlignment="Center" Margin="0,203,0,0" VerticalAlignment="Top" Height="65" Width="302" Name="lblStatus" Content="" FontSize="22" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label HorizontalAlignment="Center" Margin="0,242,0,0" VerticalAlignment="Top" Height="65" Width="389" Name="lblStatus" Content="" FontSize="22" FontWeight="Bold" HorizontalContentAlignment="Center"/>
         <Button Content="Startseite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="34" Width="80" Background="White" FontSize="16" Click="ZurueckButton"/>
+
 
     </Grid>
 </Window>
